@@ -2,10 +2,12 @@
 **Project By:** Susie Gordon
 
 ## Description
-Flexi Shift is an app that conveniently helps employers and employees schedule work shifts.
+Flexi Shift is an app that conveniently helps employers and employees schedule individual work shifts. Users can view their manually added list of shifts and the calendar month of choice displaying all other reserved shifts added by supervisors, colleagues, or coworkers. 
 
 ## Links
-- [**Github**](LINK)
+- [**Github**](https://github.com/choisus08/project_4_frontend)
+- [**Deployment**](Vercel)
+- [**Trello**](Trello)
 </br>
 
 ## Technologies Used
@@ -21,5 +23,9 @@ Flexi Shift is an app that conveniently helps employers and employees schedule w
 </br>
 
 ## Mockup of UI <br>
--Desktop View <br>
--Mobile View 
+Desktop View <img src= "./public/ui_desktop.png" alt="Desktop UI">
+<img src= "./public/ui_desktop2.png" alt="Desktop UI"> 
+</br>
+</br>
+Mobile View 
+<img src= "./public/ui_mobile.png" alt="Mobile UI"> 
