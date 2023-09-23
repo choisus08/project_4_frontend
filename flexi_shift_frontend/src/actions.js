@@ -9,7 +9,7 @@ export const createAction = async({request}) => {
 
     // construct request body
     const newShift = {
-        name: formData.get("name"),
+        name: formData.get("name") + " " + formData.get("lastname"),
         position: formData.get("position"),
         date: formData.get("date"),
         start_time: formData.get("start_time"),
