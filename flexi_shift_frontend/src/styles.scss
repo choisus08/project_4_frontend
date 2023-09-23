@@ -1,0 +1,40 @@
+body {
+    background-color: lightcoral;
+}
+
+
+.Form {
+    padding: 1em;
+    border: 1px solid black;
+    margin: 2em;
+}
+
+.ShiftForm {
+   margin: 0 0 1em 0;
+}
+
+.NameContainer {
+    margin: .5em 0 2em 0
+}
+
+.NameBox {
+    margin: 0 1em 0 0;
+}
+
+.PositionContainer, .TimeContainer {
+    margin: 0 0 2em 0;
+}
+
+.Positio, .Start {
+    margin: 0 .3em 0 0;
+}
+
+.Date, .End {
+    margin: 0 .3em 0 1em;
+}
+
+.AddButton {
+    border-radius: 10px;
+    border: none;
+    padding: .5em;
+}

@@ -26,8 +26,6 @@ const Show = (props) => {
             </Form>
         </div>
 
-
-
         <Link to='/'><button>Go Back</button></Link>
     </div>
 };
