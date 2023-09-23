@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Header(props) {
     return <nav className="Nav">
-        <Link to='/'>Flexi Shift</Link>
+        <Link to='/' style={{textDecoration: "none", color: "white"}}>FLEXI SHIFT</Link>
     </nav>
 }
 
