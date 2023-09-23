@@ -6,8 +6,8 @@ Flexi Shift is an app that conveniently helps employers and employees schedule i
 
 ## Links
 - [**Github**](https://github.com/choisus08/project_4_frontend)
-- [**Deployment**](Vercel)
-- [**Trello**](Trello)
+- [**Deployment**](https://project-4-frontend-tau.vercel.app/)
+- [**Trello**](https://trello.com/b/SYwaLdsk/flexi-shift)
 </br>
 
 ## Technologies Used
