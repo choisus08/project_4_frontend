@@ -12,6 +12,7 @@ Flexi Shift is an app that conveniently helps employers and employees schedule i
 
 ## Technologies Used
 - Django
+- Google Fonts
 - Postman
 - Python
 </br>

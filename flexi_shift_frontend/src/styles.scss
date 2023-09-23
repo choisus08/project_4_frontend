@@ -6,13 +6,20 @@ body {
 }
 
 .CalendarAnimation {
-    width: 30vw;
+    width: 10vw;
+    margin: .5em 0 0 0;
+}
+
+.FlexiShift {
+    margin: 1em .2em 0 0;
 }
 
 .Nav {
     text-align: center;
     font-family: "Martian-Mono", monospace;
     font-size: 3em;
+    display: flex;
+    justify-content: center;
 }
 
 .Form{

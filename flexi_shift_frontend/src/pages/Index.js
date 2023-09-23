@@ -2,9 +2,6 @@ import Post from '../components/Post';
 import { useLoaderData } from 'react-router-dom';
 import { Form } from 'react-router-dom';
 
-import Lottie from 'lottie-react';
-import Calendar from '../Calendar.json';
-
 const Index = (props) => {
 
     // fetch the loaderdata using the useLoaderData hook
@@ -12,7 +9,6 @@ const Index = (props) => {
     // For each post in the array render a Post component
     return <>
         <div>
-            <Lottie className='CalendarAnimation' animationData={Calendar} />
             <Form className='Form' action='/create' method='post'>
                 <h2 className='ShiftForm'>Shift Form</h2>
                 <div className='EmployeeNameContainer'>
