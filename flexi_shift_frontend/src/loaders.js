@@ -1,4 +1,16 @@
+import { redirect } from 'react-router-dom';
 import url from './url';
+
+
+
+const authCheck = () => {
+    const loggedIn = localStorage.getItem('loggedIn')
+    if(!loggedIn) {
+        return false
+    }
+    return true
+};
+
 
 // Index loader to load all shifts
 export const indexLoader = async() => {
@@ -20,4 +32,12 @@ export const showLoader = async({params}) => {
     const shift = await response.json()
     // return the js object so the Show component can use it
     return shift
+};
+
+
+export const mainLoader = async() => {
+    if (authCheck()) {
+        return redirect('/dashboard')
+    }
+    return {}
 }
