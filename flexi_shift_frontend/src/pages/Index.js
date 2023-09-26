@@ -8,7 +8,7 @@ const Index = (props) => {
     const shifts = useLoaderData()
     // For each post in the array render a Post component
     return <>
-        <div>
+        <div className='IndexContainer'>
             <Form className='Form' action='/create' method='post'>
                 <h2 className='ShiftForm'>Shift Form</h2>
                 <div className='EmployeeNameContainer'>
@@ -30,7 +30,7 @@ const Index = (props) => {
                     <label className='End'>End Time</label>
                     <input type="time" name="end_time" id="end_time" />
                 </div>
-                <button className='Add'>Add Shift</button>
+                <button className='Add'>+ Shift</button>
             </Form>    
         </div>
         <div className="EmployeeShifts">

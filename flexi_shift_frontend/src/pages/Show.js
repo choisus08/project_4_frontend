@@ -6,7 +6,7 @@ const Show = (props) => {
 
     return <div>
         <div className="ShowHeader">
-            <h2>{post.name}</h2>
+            <h1>{post.name}</h1>
             <Link to='/'><button className="Home">Home</button></Link>
         </div>
         <div className="ShowInfo">
@@ -19,8 +19,7 @@ const Show = (props) => {
             <Form className="UpdateForm" action={`/update/${post.id}`} method='post'>
                 <h2 className='UpdateForm'>Update</h2>
                 <label>Name</label>
-                <input type="text" name="name" defaultValue={post.name} />
-                <input type="text" name="lastname" defaultValue={post.name} /><br></br>
+                <input type="text" name="name" defaultValue={post.name} /><br></br>
                 <label>Position</label>
                 <input type="text" name="position" defaultValue={post.position} />
                 <label>Date</label>

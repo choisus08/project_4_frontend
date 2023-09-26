@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 const Post = ({post}) => {
 
-    return <div>
-        <Link to={`/post/${post.id}`}>
+    return <div className="ShiftList" style={{textDecoration: "none", color: "white"}}>
+        <Link to={`/post/${post.id}`} style={{textDecoration: "none", color: "white"}}>
             <h2>{post.name}</h2>
         </Link>
         <h3>{post.position}</h3>
