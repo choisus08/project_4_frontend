@@ -7,13 +7,12 @@ const Show = (props) => {
     const post = useLoaderData()
 
     return <div className="ShowContainer">
-        <div className="ShowHeader">
+        <div className="ShiftName">
             <h1>{post.name}</h1>
             <div className="ShowInfo">
                 <h3>{post.position}</h3>
                 <h4>{post.date}</h4>
-                <h4>{post.start_time}</h4>
-                <h4>{post.end_time}</h4>
+                <h4>{post.start_time} - {post.end_time}</h4>
             </div>
         </div>
     

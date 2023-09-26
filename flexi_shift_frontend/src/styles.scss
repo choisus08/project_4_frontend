@@ -80,12 +80,18 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 3em;
+    padding: 2em;
 }
 
-.ShowHeader {
+.ShiftName {
     // display: flex;
     // justify-content: space-between;
     margin: 1em;
+    background-color: rgb(233, 120, 40);
+    padding: 1.5em;
+    border-radius: 20px;
+    height: 200px;
+    text-align: center;
 }
 
 .ShowInfo, .UpdateForm {
@@ -104,7 +110,7 @@ body {
     // margin: .5em 0;
 }
 
-.ShiftList {
+.ShiftCards {
     border: none;
     background-color: rgb(233, 120, 40);
     border-radius: 20px;
