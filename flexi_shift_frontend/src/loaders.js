@@ -1,15 +1,15 @@
-import { redirect } from 'react-router-dom';
+// import { redirect } from 'react-router-dom';
 import url from './url';
 
 
 
-const authCheck = () => {
-    const loggedIn = localStorage.getItem('loggedIn')
-    if(!loggedIn) {
-        return false
-    }
-    return true
-};
+// const authCheck = () => {
+//     const loggedIn = localStorage.getItem('loggedIn')
+//     if(!loggedIn) {
+//         return false
+//     }
+//     return true
+// };
 
 
 // Index loader to load all shifts
@@ -35,9 +35,9 @@ export const showLoader = async({params}) => {
 };
 
 
-export const mainLoader = async() => {
-    if (authCheck()) {
-        return redirect('/dashboard')
-    }
-    return {}
-}
+// export const mainLoader = async() => {
+//     if (authCheck()) {
+//         return redirect('/dashboard')
+//     }
+//     return {}
+// }

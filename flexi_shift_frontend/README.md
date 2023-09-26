@@ -13,6 +13,7 @@ Flexi Shift is an app that conveniently helps employers and employees schedule i
 ## Technologies Used
 - Django
 - Google Fonts
+- Lottie Files
 - Postman
 - Python
 </br>
@@ -28,5 +29,21 @@ Desktop View <img src= "./public/ui_desktop.png" alt="Desktop UI">
 <img src= "./public/ui_desktop2.png" alt="Desktop UI"> 
 </br>
 </br>
-Mobile View 
-<img src= "./public/ui_mobile.png" alt="Mobile UI"> 
+Mobile View <br>
+<img src= "./public/ui_mobile.png" alt="Mobile UI">
+</br>
+
+## Issues 
+1. Successfully implementing authentication
+    - Was able to render register & login forms for the user and sneding the request but the backend would not create nor login user; Commented out blocks of code of my attempt 
+</br>
+
+
+## Future Enhancements
+- Implement an interactive calendar
+- Color coding for each employee
+- Add a list of preset icons for each user to choose from for each account
+</br>
+
+## Resources 
+- https://docs.djangoproject.com/en/4.2/
