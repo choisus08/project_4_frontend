@@ -2,7 +2,7 @@
 **Project By:** Susie Gordon
 
 ## Description
-Flexi Shift is an app that conveniently helps employers and employees schedule individual work shifts. Users can view their manually added list of shifts and the calendar month of choice displaying all other reserved shifts added by supervisors, colleagues, or coworkers. 
+Flexi Shift is a full CRUD app that conveniently helps employers and employees schedule individual work shifts. Users can view their manually added list of shifts and the calendar month of choice displaying all other reserved shifts submitted by supervisors, colleagues, or coworkers. 
 
 ## Links
 - [**Github**](https://github.com/choisus08/project_4_frontend)
@@ -16,6 +16,10 @@ Flexi Shift is an app that conveniently helps employers and employees schedule i
 - Lottie Files
 - Postman
 - Python
+</br>
+
+## Approach
+My initial approach was to make a call to the backend by successfully implementing a 'shift' model with full CRUD capabilities. In order to fully render the CRUD functionalities, the backend url was imported to make the proper requests to load relevant data and initiate corresponding actions which then were passed into the routers.js file. This file would be the roadmap to guide how each page of the app would be painted using the 'pages' and 'components' folders. 
 </br>
 
 ## Installation
@@ -34,15 +38,15 @@ Mobile View <br>
 </br>
 
 ## Issues 
-1. Successfully implementing authentication
-    - Was able to render register & login forms for the user and sneding the request but the backend would not create nor login user; Commented out blocks of code of my attempt 
+1. Unable to implement authentication
+    - Was able to render register & login forms but the backend was unable to receive the requests rendering the auth feature incomplete; Commented out my attempt.
 </br>
 
 
 ## Future Enhancements
 - Implement an interactive calendar
 - Color coding for each employee
-- Add a list of preset icons for each user to choose from for each account
+- Add a list of preset icons for each user to choose from
 </br>
 
 ## Resources 

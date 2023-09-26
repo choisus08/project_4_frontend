@@ -76,14 +76,25 @@ body {
     background-color: rgb(238, 9, 124);
 }
 
-.ShowHeader {
+.ShowContainer {
     display: flex;
     justify-content: space-between;
+    margin: 3em;
+}
+
+.ShowHeader {
+    // display: flex;
+    // justify-content: space-between;
     margin: 1em;
 }
 
 .ShowInfo, .UpdateForm {
     margin: 1em;
+}
+
+.ClockAnimation {
+    width: 10em;
+    margin: 1.5em;
 }
 
 .EmployeeShifts {

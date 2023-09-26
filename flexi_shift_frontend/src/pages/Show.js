@@ -1,23 +1,26 @@
 import { Link, useLoaderData, Form } from "react-router-dom";
+import Lottie from "lottie-react";
+import Clock from '../Clock.json';
 
 const Show = (props) => {
 
     const post = useLoaderData()
 
-    return <div>
+    return <div className="ShowContainer">
         <div className="ShowHeader">
             <h1>{post.name}</h1>
-            <Link to='/'><button className="Home">Home</button></Link>
+            <div className="ShowInfo">
+                <h3>{post.position}</h3>
+                <h4>{post.date}</h4>
+                <h4>{post.start_time}</h4>
+                <h4>{post.end_time}</h4>
+            </div>
         </div>
-        <div className="ShowInfo">
-            <h3>{post.position}</h3>
-            <h4>{post.date}</h4>
-            <h4>{post.start_time}</h4>
-            <h4>{post.end_time}</h4>
-        </div>
+    
         <div>
             <Form className="UpdateForm" action={`/update/${post.id}`} method='post'>
                 <h2 className='UpdateForm'>Update</h2>
+                <Lottie className="ClockAnimation" animationData={Clock} />
                 <label>Name</label>
                 <input type="text" name="name" defaultValue={post.name} /><br></br>
                 <label>Position</label>
@@ -30,8 +33,7 @@ const Show = (props) => {
                 <input type="time" name="end_time" defaultValue={post.end_time} /><br></br>
                 <button className="Update">Edit</button>
             </Form>
-        </div>
-        <div>
+
             <Form method='delete' action={`/delete/${post.id}`}>
                 <button className="Delete">Delete</button>
             </Form>
