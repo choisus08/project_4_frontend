@@ -84,6 +84,10 @@ body {
     background-color: rgb(247, 4, 126);
 }
 
+.Delete {
+    margin: 0 1em;
+}
+
 .ShowContainer {
     display: flex;
     justify-content: space-between;
@@ -124,4 +128,19 @@ body {
     background-color: rgb(233, 120, 40);
     border-radius: 20px;
     margin: 1em 2em;
+}
+
+@media screen and (max-width: 600px) {
+    .Nav {
+        font-size: 40px;
+    }
+
+    .CalendarAnimation {
+        width: 70px;
+    }
+
+    .Date {
+        display: inline-block;
+        margin: 0
+    }
 }

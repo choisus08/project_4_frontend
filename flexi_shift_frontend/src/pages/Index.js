@@ -26,9 +26,9 @@ const Index = (props) => {
                 </div>
                 <div className='TimeContainer'>
                     <label className='Start'>Start Time</label>
-                    <input type="time" name="start_time" id="start_time" />
+                    <input className='time' type="time" name="start_time" id="start_time" />
                     <label className='End'>End Time</label>
-                    <input type="time" name="end_time" id="end_time" />
+                    <input className='time' type="time" name="end_time" id="end_time" />
                 </div>
                 <button className='Add'>+ Shift</button>
             </Form>    
