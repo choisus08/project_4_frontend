@@ -40,7 +40,7 @@ const Show = (props) => {
                 
             </Form>
 
-            <Form method='delete' action={`/delete/${post.id}`}>
+            <Form className="DeleteForm" method='delete' action={`/delete/${post.id}`}>
                 <button className="Delete">Delete</button>
             </Form>
         </div>

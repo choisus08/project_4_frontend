@@ -90,20 +90,18 @@ body {
 
 .ShowContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 3em;
     padding: 2em;
     color: white;
 }
 
 .ShiftName {
-    // display: flex;
-    // justify-content: space-between;
     margin: 1em;
     background-color: rgb(233, 120, 40);
     padding: 1.5em;
     border-radius: 20px;
-    height: 200px;
+    height: 250px;
     text-align: center;
 }
 
@@ -142,5 +140,34 @@ body {
     .Date {
         display: inline-block;
         margin: 0
+    }
+
+    .End {
+        display: inline-block;
+        margin: 0 1em
+
+    }
+
+    .ShowContainer {
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+
+    .ShiftName {
+        height: 280px;
+        margin: 0
+    }
+
+    .UpdateForm {
+        text-align: center;
+        margin: auto;
+        height: 450px;
+        width: 260px
+    }
+
+    .DeleteForm {
+        margin: auto;
+        text-align: center;
     }
 }
