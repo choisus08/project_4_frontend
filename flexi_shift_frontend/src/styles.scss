@@ -67,13 +67,21 @@ body {
     cursor: pointer;
 }
 
-.Update, .Delete, .Home {
+.Update, .Delete {
     margin: 1em 0 1em 0;
 
 }
 
-.Add {
-    background-color: rgb(238, 9, 124);
+.Name {
+    margin: 0 1em 1em 0;
+}
+
+.End, .Date {
+    margin: 0 1em 1em 1em;
+}
+
+.Add, .Update, .Delete {
+    background-color: rgb(247, 4, 126);
 }
 
 .ShowContainer {
@@ -81,6 +89,7 @@ body {
     justify-content: space-between;
     margin: 3em;
     padding: 2em;
+    color: white;
 }
 
 .ShiftName {

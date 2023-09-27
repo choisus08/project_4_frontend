@@ -18,19 +18,26 @@ const Show = (props) => {
     
         <div>
             <Form className="UpdateForm" action={`/update/${post.id}`} method='post'>
-                <h2 className='UpdateForm'>Update</h2>
+                <h2 className='UpdateHeader'>Update</h2>
                 <Lottie className="ClockAnimation" animationData={Clock} />
-                <label>Name</label>
-                <input type="text" name="name" defaultValue={post.name} /><br></br>
-                <label>Position</label>
-                <input type="text" name="position" defaultValue={post.position} />
-                <label>Date</label>
-                <input type="date" name="date" defaultValue={post.date} /><br></br>
-                <label>Start</label>
+                <div>
+                    <label className="Name">Name</label>
+                    <input type="text" name="name" defaultValue={post.name} />
+                </div>
+                <br></br>
+                <div>
+                    <label className="Name">Position</label>
+                    <input type="text" name="position" defaultValue={post.position} />
+                    <label className="Date">Date</label>
+                    <input type="date" name="date" defaultValue={post.date} />
+                </div>
+                <br></br>
+                <label className="Name">Start</label>
                 <input type="time" name="start_time" defaultValue={post.start_time} />
-                <label>End</label>
+                <label className="End">End</label>
                 <input type="time" name="end_time" defaultValue={post.end_time} /><br></br>
                 <button className="Update">Edit</button>
+                
             </Form>
 
             <Form method='delete' action={`/delete/${post.id}`}>
