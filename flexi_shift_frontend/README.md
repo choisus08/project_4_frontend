@@ -36,7 +36,6 @@ Mobile View <br>
 ## Issues 
 1. Unable to implement authentication
     - Utilized the register & login forms already packaged by Django but the backend was unable to receive the requests rendering the auth feature incomplete; Commented out my attempt.
-</br>
 
 
 ## Future Enhancements
